@@ -30,13 +30,6 @@ const createBlog = async(req,res) => {
     2- create a new blog with the title, body and authorId
     3- send the new blog as a response
     */
-    const{title,body,authorId} = req.body;
-    try{
-        const blog = await blogModel.create({title,body,authorId});
-        res.status(200).json(blog)
-    }catch(error){
-        res.status(400).json({error:error.message})
-    }
 }
 
 // filter blogs by author
@@ -46,14 +39,6 @@ const filterBlog = async(req,res) => {
     2- find all the blogs that have the same author id
     3- send the blogs as a response
     */
-    const userId = req.query.userId;
-    // check if userId is not empty
-    if(userId){
-    const result = await blogModel.find({author:mongoose.Types.ObjectId(userId)}).populate('author');
-    res.status(200).json(result)
-    }else{
-        res.status(400).json({error:"userId is required"})
-    }
 }
 
 
