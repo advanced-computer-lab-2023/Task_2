@@ -1,9 +1,10 @@
 // External variables
 const express = require("express");
 const mongoose = require('mongoose');
-// THIS IS WRONG NEVER DO THAT !! Only for the task we put the DB Link here!! NEVER DO THAAAT AGAIN !!
+require("dotenv").config();
+//Make sure to add your MongoDB URI in the .env file as MONGO_URI="your mongodb uri"
 //Check db connection links in README file
-const MongoURI = 'mongodb+srv://Hadwa:hadwa1996@cluster0.hpstsct.mongodb.net/?retryWrites=true&w=majority' ;
+const MongoURI = process.env.MONGO_URI;
 const {createUser, getUsers, createBlog, filterBlog, editBlog}= require('./Routes/userController')
 
 

@@ -50,4 +50,9 @@ Nada's grps:
  mongodb+srv://nadahesham:test1234@cluster0.5uvnx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
 ```
 
+Mabrouk's grps:
+ ```
+ mongodb+srv://gucACL:lab123456@mabrouk.klnokrh.mongodb.net/?retryWrites=true&w=majority
+```
+
 ### **DO NOT COMMIT TO THIS REPO**
