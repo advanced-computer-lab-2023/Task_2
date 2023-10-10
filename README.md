@@ -37,7 +37,7 @@ Click here to check [Go](http://localhost:8000/home)
 
 Hadwa's grps:
  ```
- mongodb+srv://Hadwa:hadwa1996@cluster0.hpstsct.mongodb.net/?retryWrites=true&w=majority
+ mongodb+srv://Hadwa:Hadwa@cluster0.hpstsct.mongodb.net/?retryWrites=true&w=majority
  ```
 
 Noha's grps:
