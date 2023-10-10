@@ -47,7 +47,7 @@ Noha's grps:
 
 Nada's grps:
  ```
- mongodb+srv://atlasDB:<password>@cluster0.vt5cm.mongodb.net/
+ mongodb+srv://atlasDB:atlasDB@cluster0.vt5cm.mongodb.net/
 ```
 
 Mabrouk's grps:
